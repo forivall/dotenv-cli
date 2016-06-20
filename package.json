@@ -1,8 +1,11 @@
 {
-  "name": "dotenv-cli",
+  "name": "@forivall/dotenv-cli",
   "description": "A global executable to run applications with the ENV variables loaded by dotenv",
   "version": "1.0.0",
   "author": "caske33",
+  "contributors": [
+    "Jordan J Klassen <forivall@gmail.com>"
+  ],
   "bin": {
     "dotenv": "./cli.js"
   },
@@ -16,7 +19,7 @@
   "license": "MIT",
   "main": "index.js",
   "preferGlobal": true,
-  "repository": "caske33/dotenv-cli",
+  "repository": "forivall/dotenv-cli",
   "scripts": {
     "lint": "standard"
   }
